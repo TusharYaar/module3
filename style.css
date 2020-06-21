@@ -1,0 +1,38 @@
+.row{
+  margin-top: 20px;
+}
+
+.row div{
+  border: 2px white solid;
+}
+h2 {
+  text-align: Center;
+}
+#branding {
+  font-size: 4em;
+  font-style: italic;
+  font-weight: 400;
+  color: black;
+}
+
+nav-item {
+  visibility: visible;
+}
+
+#navbarSupportedContent ul li a {
+  color: black;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.text-center {
+font-size: 4em;
+}
+
+
+@media (min-width: 768px) {
+.nav-item {
+  visibility: hidden;
+}
+
+}
