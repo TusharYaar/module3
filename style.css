@@ -1,0 +1,53 @@
+.row{
+  margin-top: 20px;
+}
+
+*{font-family: 'Lato', sans-serif;
+}
+.row div{
+  border: 10px white solid;
+}
+h2 {
+  text-align: Center;
+}
+#branding {
+  font-size: 4em;
+  font-style: italic;
+  font-weight: 400;
+  color: black;
+}
+
+nav-item {
+  visibility: visible;
+}
+
+#navbarSupportedContent ul li a {
+  color: black;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+#menu {
+font-size: 3em;
+}
+.gototop a {
+  text-align: center;
+  color: black;
+  padding: 4px;
+  margin: 1px auto 5px;
+}
+
+@media (min-width: 768px) {
+.nav-item {
+  visibility: hidden;
+}
+}
+
+ @media (max-width:350px ) {
+   #branding{
+     font-size: 3em;
+   }
+   #menu {
+   font-size: 2em;
+   }
+ }
